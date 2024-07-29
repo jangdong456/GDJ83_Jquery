@@ -1,0 +1,19 @@
+.container {
+    border: 5px solid rgb(215, 159, 226);
+}
+
+#movie {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, auto));
+	grid-auto-flow: dense;
+}
+
+p {
+    display: inline-block;
+    border: 3px solid rgb(123, 114, 199);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
